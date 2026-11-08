@@ -1,0 +1,32 @@
+# 依存・ビルドの生成物
+node_modules/
+.next/
+out/
+build/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# 実行時データ(案件・拒否記録・呼び出し記録。既定の保存先は runtime/data)
+/runtime/
+*.jsonl
+cases.json
+*.tmp
+
+# 秘密情報・環境設定(雛形の .env.example だけを残す)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+
+# ログ・OS・エディタ
+*.log
+npm-debug.log*
+.DS_Store
+.vscode/
+.idea/
+
+# 公開に不要な候補(Human 判断待ち。除外する場合は行頭の # を外す)
+# app/AGENTS.md

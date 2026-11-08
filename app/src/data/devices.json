@@ -1,0 +1,42 @@
+{
+  "schema_version": "0.1",
+  "fictional": true,
+  "devices": [
+    {
+      "device_id": "HVN-DEV-XR-001",
+      "site_id": "HVN-SITE-001",
+      "model": "HeliosXR-A1",
+      "serial": "SN-HVN-XR-10021",
+      "room": "一般撮影室1",
+      "install_year": 2019,
+      "modality": "XR"
+    },
+    {
+      "device_id": "HVN-DEV-XR-002",
+      "site_id": "HVN-SITE-001",
+      "model": "HeliosXR-A1",
+      "serial": "SN-HVN-XR-10045",
+      "room": "一般撮影室2",
+      "install_year": 2021,
+      "modality": "XR"
+    },
+    {
+      "device_id": "HVN-DEV-RF-001",
+      "site_id": "HVN-SITE-001",
+      "model": "HeliosRF-B2",
+      "serial": "SN-HVN-RF-20011",
+      "room": "透視室1",
+      "install_year": 2018,
+      "modality": "RF"
+    },
+    {
+      "device_id": "HVN-DEV-XR-003",
+      "site_id": "HVN-SITE-002",
+      "model": "HeliosXR-A1",
+      "serial": "SN-HVN-XR-10088",
+      "room": "撮影室A",
+      "install_year": 2020,
+      "modality": "XR"
+    }
+  ]
+}

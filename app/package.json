@@ -1,0 +1,37 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test:health": "node scripts/health-check.mjs",
+    "test:tp01": "node scripts/test-tp01.mjs",
+    "test:tp02": "node scripts/test-tp02.mjs",
+    "test:tp03": "node scripts/test-tp03.mjs",
+    "test:tp04": "node scripts/test-tp04.mjs",
+    "test:tp04r": "node scripts/test-tp04-regression.mjs",
+    "test:tp04r2": "node scripts/test-tp04-r2.mjs",
+    "test:tp04r3": "node scripts/test-tp04-r3.mjs",
+    "test:tp04r4": "node scripts/test-tp04-r4.mjs",
+    "test:invariant": "node scripts/test-invariant.mjs",
+    "test:boundary": "node scripts/test-boundary.mjs",
+    "test:tp04r5": "node scripts/test-tp04-r5.mjs",
+    "test:concurrency": "node scripts/test-concurrency.mjs"
+  },
+  "dependencies": {
+    "next": "16.4.3",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.3",
+    "typescript": "^5"
+  }
+}

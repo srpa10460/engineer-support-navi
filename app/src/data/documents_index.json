@@ -1,0 +1,51 @@
+{
+  "schema_version": "0.1",
+  "fictional": true,
+  "documents": [
+    {
+      "doc_id": "DOC-HVN-XR-A1-SM",
+      "title": "HeliosXR-A1 Service Manual (Fictional)",
+      "version": "3.2",
+      "models": ["HeliosXR-A1"],
+      "path": "documents/DOC-HVN-XR-A1-SM_v3.2.md",
+      "sections": [
+        { "section_id": "SEC-GEN-SAFE", "title": "安全上の基本（外観確認・電源表示）" },
+        { "section_id": "SEC-GEN-READY", "title": "Generator Ready 条件" }
+      ]
+    },
+    {
+      "doc_id": "DOC-HVN-XR-A1-ERR",
+      "title": "HeliosXR-A1 Error Code Guide (Fictional)",
+      "version": "1.4",
+      "models": ["HeliosXR-A1"],
+      "path": "documents/DOC-HVN-XR-A1-ERR_v1.4.md",
+      "sections": [
+        { "section_id": "SEC-E210", "title": "Error E210 Generator Not Ready" },
+        { "section_id": "SEC-E210-CHK", "title": "E210 安全な確認項目" },
+        { "section_id": "SEC-E440", "title": "Error E440 Communication Timeout" }
+      ]
+    },
+    {
+      "doc_id": "DOC-HVN-RF-B2-SM",
+      "title": "HeliosRF-B2 Service Manual (Fictional)",
+      "version": "2.0",
+      "models": ["HeliosRF-B2"],
+      "path": "documents/DOC-HVN-RF-B2-SM_v2.0.md",
+      "sections": [
+        { "section_id": "SEC-RF-BOOT", "title": "起動シーケンス概要" }
+      ]
+    },
+    {
+      "doc_id": "DOC-HVN-SAFETY",
+      "title": "Field Safety Boundaries (Fictional)",
+      "version": "1.0",
+      "models": ["HeliosXR-A1", "HeliosRF-B2"],
+      "path": "documents/DOC-HVN-SAFETY_v1.0.md",
+      "sections": [
+        { "section_id": "SEC-SG-HV", "title": "高電圧部" },
+        { "section_id": "SEC-SG-ILK", "title": "インターロック" },
+        { "section_id": "SEC-SG-AUTH", "title": "権限とエスカレーション" }
+      ]
+    }
+  ]
+}
